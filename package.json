@@ -1,0 +1,37 @@
+{
+    "name": "responder",
+    "version": "0.0.1",
+    "description": "Whatsapp autoresponder",
+    "main": "./index.js",
+    "scripts": {
+        "start": "node main"
+    },    
+    "keywords": [
+        "bot-whatsapp"
+    ],
+    "author": "Zynfinity",
+    "license": "ISC",
+    "dependencies": {
+        "@adiwajshing/baileys": "npm:baileys@latest",
+        "@adiwajshing/keyed-db": "latest",       
+        "awesome-phonenumber": "latest",
+        "axios": "latest",
+        "chalk": "^4.1.2",
+        "cheerio": "latest",
+        "express": "latest",
+        "file-type": "^16.5.4",  
+        "human-readable": "latest",
+        "jimp": "latest",
+        "jsdom": "latest",
+        "moment-timezone": "latest",
+        "node-fetch": "^2.6.7",
+        "pretty-ms": "^7.0.1",
+        "performance-now": "latest",
+        "qrcode": "latest",
+        "qrcode-terminal": "latest",
+        "socket.io": "latest",
+        "steno": "^1.0.0",
+        "syntax-error": "latest",
+        "yargs": "latest"
+    }
+}
